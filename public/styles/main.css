@@ -888,28 +888,28 @@ color: white;
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
-    flex-wrap: wrap; /* إضافة هذه الخاصية */
-    align-content: center; /* لتوسيط العناصر عند اللف */
-    gap: 15px 50px; /* فراغ بين الصفوف والأعمدة */
+    flex-wrap: wrap;  
+    align-content: center;  
+    gap: 15px 50px;  
 }
 
 .nav_text ul {
-    width: auto; /* تغيير من 400px إلى auto */
+    width: auto; 
     list-style: none;
     display: flex;
     gap: 50px;
     font-size: clamp(14px, 2vw, 20px);
-    flex-wrap: wrap; /* إمكانية لف العناصر */
-    justify-content: center; /* توسيط العناصر عند اللف */
+    flex-wrap: wrap;  
+    justify-content: center; 
 }
 
 .nav_icons ul {
-    width: auto; /* تغيير من 400px إلى auto */
+    width: auto;  
     list-style: none;
     display: flex;
     gap: 30px;
-    flex-wrap: wrap; /* إمكانية لف العناصر */
-    justify-content: center; /* توسيط العناصر عند اللف */
+    flex-wrap: wrap; 
+    justify-content: center;  
 }
 
 @media (max-width: 1200px) {
@@ -939,12 +939,12 @@ color: white;
     .nav_bar {
         height: auto;
         padding: 20px 40px;
-        justify-content: center; /* توسيط العناصر */
+        justify-content: center;  
     }
     
     .nav_text ul, 
     .nav_icons ul {
-        gap: 30px; /* تقليل الفراغ بين العناصر */
+        gap: 30px;  
     }
 }
 
